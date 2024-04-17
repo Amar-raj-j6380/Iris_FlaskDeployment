@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Model Deployment</title>
+
+
+    
+</head>
+<body>
+    <h1>Iris Dataset Classification</h1>
+    <form action="/predict"  method="post">
+    Sepal Length: <input type='text' name='sepal_length'><br>
+    Sepal Width: <input type='text' name='sepal_width'><br>
+    Petal Length: <input type='text' name='petal_length'><br>
+    Petal Width: <input type='text' name='petal_width'><br>
+    <br>
+    {{result}} 
+    <br><br>
+    <input type='submit' value='predict'>
+    </form>
+    
+    <br>
+    test cases - sample values to input
+    <br><br>
+    test case1 -> 6.6, 2.2, 5.1, 3.0
+    <br>
+    test case2 -> 3.2, 2.1, 2.0, 4.1
+
+    </body>
+</html>
+
+
