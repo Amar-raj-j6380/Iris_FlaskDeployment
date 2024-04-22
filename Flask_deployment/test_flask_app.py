@@ -9,7 +9,7 @@ def client():
 
 def test_home(client):    
     resp = client.get('/ping')
-    assert resp.json=={"message":"Hi there, I'm working!!"}
+    assert resp.json=={"yes"}
 
 def test_predict(client):
     test_data={'Gender':"Male", 'Married':"Unmarried",'Credit_History' : "Unclear Debts",'ApplicantIncome':100000,'LoanAmount':2000000}
