@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import joblib
 
 # Load the pre-trained model
-model = joblib.load('IRIS_FLASKDEPLOYMENT//Flask_deployment//dtc1.pkl')
+model = joblib.load('dtc1.pkl')
 
 app = Flask(__name__)
 
