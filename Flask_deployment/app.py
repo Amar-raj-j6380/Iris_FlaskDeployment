@@ -7,7 +7,7 @@ model = joblib.load('Iris_FlaskDeployment\dtc2.pkl')
 app = Flask(__name__)
 
 @app.route('/ping')
-def intro():
+def intro():  #vjjjj
     return {"message": "Hi there, I'm working!!"}
 
 @app.route('/predict', methods=['POST'])
