@@ -11,4 +11,4 @@ RUN pip3 install -r requirements.txt
 COPY . .
 CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
 
-# cmd when run the image on container mjjjjjj kdkandkk
+# cmd when run the image on container mjjjjjj kdkandkkjaknkda
