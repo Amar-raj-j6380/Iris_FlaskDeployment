@@ -6,7 +6,7 @@ model = joblib.load('dtc2.pkl')
 
 app = Flask(__name__)
 
-@app.route('/ping')
+@app.route('/hello')
 def ping():  #vjjjj
     return {"message": "Hi there, I'm working!!"}
 
