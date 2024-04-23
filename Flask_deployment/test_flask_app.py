@@ -8,8 +8,8 @@ def client():
 
 
 def test_home(client):    
-    resp = client.get('/ping')
-    assert resp.json=={"message": "Hi there, I'm working!!"}
+    resp = client.get('/hello')
+    assert resp.json=={"message": "Hi there, I'm not working!!"}
 
 def test_predict(client):
     test_data={
