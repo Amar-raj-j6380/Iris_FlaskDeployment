@@ -7,7 +7,7 @@ model = joblib.load('dtc2.pkl')
 app = Flask(__name__)
 
 @app.route('/ping')
-def intro():  #vjjjj
+def ping():  #vjjjj
     return {"message": "Hi there, I'm working!!"}
 
 @app.route('/predict', methods=['POST'])
@@ -35,4 +35,4 @@ def predict():
     return jsonify({"prediction": prediction_returned})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')  # Set debug=False in a production environment
+    app.run(host='0.0.0.0', debug = True)  # Set debug=False in a production environment

@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:372307897440:task-definition/mlopsapriltask:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:320932908747:task-definition/mlopsapriltask:1",
     "containerDefinitions": [
         {
             "name": "mlopsaprilcontainer",
-            "image": "372307897440.dkr.ecr.us-east-1.amazonaws.com/mlopsaprilrepo:latest",
+            "image": "320932908747.dkr.ecr.us-east-1.amazonaws.com/mlopsapril:latest",
             "cpu": 0,
             "portMappings": [
                 {
@@ -34,7 +34,7 @@
         }
     ],
     "family": "mlopsapriltask",
-    "executionRoleArn": "arn:aws:iam::372307897440:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::320932908747:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 1,
     "volumes": [],
@@ -79,7 +79,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-04-03T17:05:31.148Z",
-    "registeredBy": "arn:aws:sts::372307897440:federated-user/scalerb7awsmarchuser29",
+    "registeredAt": "2024-04-23T11:26:13.957Z",
+    "registeredBy": "arn:aws:sts::320932908747:federated-user/scalerb7awsmarchuser09",
     "tags": []
 }
