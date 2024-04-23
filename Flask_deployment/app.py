@@ -35,4 +35,7 @@ def predict():
     return jsonify({"prediction": prediction_returned})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug = True)  # Set debug=False in a production environment
+    app.run(host='0.0.0.0', debug = True)  
+    
+    # Set debug=False in a production environment
+    # -f /path/to/your/Dockerfile C:\Users\dell\Documents\GitHub\Iris_FlaskDeployment
