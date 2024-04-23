@@ -1,5 +1,5 @@
 name: Deploy to Amazon ECS  
-#explained the process to the class
+
 on:
 	push:
 		branches:
